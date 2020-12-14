@@ -15,7 +15,7 @@ class ViewController: UIViewController,JWLineChartDelegate,JWBarChartDelegate {
         chart.lineType = .circleLine
         chart.reloaData()
         self.view.addSubview(chart)
-        
+        //tmd
         self.view.addSubview(barchart)
         barchart.delegate = self
        
